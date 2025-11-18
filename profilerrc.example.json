@@ -1,0 +1,30 @@
+{
+  "webpack": "./webpack.config.js",
+  "output": "./profiler-reports",
+  "analyzers": {
+    "bundle": true,
+    "rerenders": true,
+    "memory": true
+  },
+  "thresholds": {
+    "bundleSize": 500000,
+    "chunkSize": 250000,
+    "rerenderCount": 5,
+    "memoryLeakThreshold": 10485760
+  },
+  "ignore": {
+    "modules": [
+      "node_modules/react/",
+      "node_modules/react-dom/"
+    ],
+    "components": [
+      "DevTools",
+      "HotReloadWrapper"
+    ]
+  },
+  "runtime": {
+    "interactionDuration": 10000,
+    "snapshotInterval": 3000,
+    "headless": true
+  }
+}
