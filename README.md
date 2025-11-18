@@ -405,19 +405,6 @@ Tested on 5 production React codebases:
 | Re-renders | 850 | 340 | 60% reduction |
 | Memory Usage | 85 MB | 52 MB | 39% reduction |
 
-## Contributing
-
-Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) for details.
-
-## License
-
-MIT
-
-## Support
-
-- 📧 Email: support@react-profiler.dev
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/react-profiler/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/yourusername/react-profiler/discussions)
 
 ## Roadmap
 
@@ -430,5 +417,3 @@ MIT
 - [ ] Team collaboration features
 
 ---
-
-Built with ❤️ by the React Performance Team
